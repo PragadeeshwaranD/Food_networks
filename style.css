@@ -55,3 +55,27 @@
     background-color: orange;
     border-radius: 5px;
 }
+
+@media(max-width:650px){
+    .header{
+        display:flex;
+        justify-content: space-between;
+        height:10%;
+        align-items: center;
+        font-size: 3vw;
+        background-color: antiquewhite;
+    }
+    .logo{
+        margin-left: 2%;
+    }
+    .header_items{
+        display:flex;
+        gap:15px;
+        margin-right: 2%;
+    }
+    .header_items5>a{
+        text-decoration: none;
+        color:black;
+    }
+    
+}
